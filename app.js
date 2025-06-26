@@ -1,7 +1,7 @@
 let username = '';
-const socket = io('https://chat-box-backend-ipno.onrender.com');
+
 window.onload = () => {
-  
+  const socket = io('https://chat-box-backend-ipno.onrender.com');
   const input = document.getElementById('input');
   const button = document.querySelector('button');
 
